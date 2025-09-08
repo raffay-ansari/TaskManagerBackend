@@ -1,0 +1,44 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Rider / VS Code / VS settings
+.idea/
+.vscode/
+*.code-workspace
+
+# EF Core Migrations (if generated binaries)
+Migrations/
+
+# SQLite database file
+*.db
+
+# ASP.NET environment files
+*.env
+*.secret
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Build reports
+TestResult*/
+BuildLogs/
+
+# Others
+*.vs/
+_ReSharper*/
